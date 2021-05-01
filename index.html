@@ -18,7 +18,7 @@
   </head>
   <body id="home">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top" id="navbar">
       <div class="container">
         <a class="navbar-brand" href="#">Zelda Ababil</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,11 +45,12 @@
     <!-- Akhir Navbar -->
 
     <!-- Jumbotron -->
-    <section class="jumbotron text-center">
+    <section class="jumbotron text-center" id="welcome-section" >
       <img src="img/ZELDA ABABIL.jpg" alt="ZELDA ABABIL" width="200" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Zelda Ababil</h1>
       <p class="lead">Mahasiswa | Teknik Informatika Unmuh Jember</p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <a href="https://github.com/zeldaababil19" id="profile-link" target="_blank" class="btn btn-dark btn-github" >Follow My Github <i class="bi bi-github"></i></a>
+      <svg class="wave1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
           fill-opacity="1"
@@ -69,10 +70,10 @@
         </div>
         <div class="row justify-content-center fs-5 text-center">
           <div class="col-md-4">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint aut, maxime dignissimos in obcaecati officiis natus quos suscipit vitae error!</p>
+            <p>Just A Human Who have a Big Dream to be a Software engineer.</p>
           </div>
           <div class="col-md-4">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione quas nostrum rerum assumenda? Unde doloribus natus assumenda temporibus ullam possimus quo consequatur magni nobis maxime.</p>
+            <p>“There are no two words in the English language more harmful than ‘good job'," - Whiplass</p>
           </div>
         </div>
       </div>
@@ -87,7 +88,7 @@
     <!-- Akhir about -->
 
     <!-- Project -->
-    <section id="project">
+    <section id="projects">
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
@@ -95,43 +96,56 @@
           </div>
         </div>
         <div class="row justify-content-center">
+          
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/foto1.jpg" class="card-img-top" alt="Project1" />
+            <div class="card project-tile">
+              <img src="img/projects/pamungkas.jpg" class="card-img-top" alt="Project1" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Pamungas Tribute Page</h5>
+                <p class="card-text">A Simple Web Tribute Page for Pamungkas The "to the bone" singer</p>
+                <div class="d-flex justify-content-end">
+                <a href="https://zeldaababil19.github.io/Tribute-Page/" target="_blank" class="btn btn-primary">Detail Project &raquo;</a></div>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/foto2.jpg" class="card-img-top" alt="Project2" />
+            <div class="card project-tile">
+              <img src="img/projects/survey.jpg" class="card-img-top" alt="Project2" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Pamungas Survey Form</h5>
+                <p class="card-text">A Simple Web Survey Form for Pamungkas our favorit singer</p>
+                <div class="d-flex justify-content-end">
+                <a href="https://zeldaababil19.github.io/Survey-Form/" target="_blank" class="btn btn-primary">Detail Project &raquo;</a></div>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/foto3.jpg" class="card-img-top" alt="Project3" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="card project-tile">
+              <img src="img/projects/teknikal.jpg" class="card-img-top" alt="Project3" />
+              <div class="card-body"><h5 class="card-title">Technical Documentation JavaScript</h5>
+                <p class="card-text">A Technical Documentation About JavaScript</p>
+                <div class="d-flex justify-content-end">
+                <a href="https://zeldaababil19.github.io/FCC-Technical-Documentation/" target="_blank" class="btn btn-primary">Detail Project &raquo;</a></div>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/foto4.jpg" class="card-img-top" alt="Project4" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="card project-tile">
+              <img src="img/projects/calculator.jpg" class="card-img-top" alt="Project4" />
+              <div class="card-body"><h5 class="card-title">8it.Calc</h5>
+                <p class="card-text">A Simple Web to find a result area of ​​circle, area of ​​square, area of ​​triangle </p>
+                <div class="d-flex justify-content-end">
+                <a href="https://zeldaababil19.github.io/8it.calc/" target="_blank" class="btn btn-primary">Detail Project &raquo;</a></div>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card project-tile">
               <img src="img/projects/foto5.jpg" class="card-img-top" alt="Project5" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="card-body"><h5 class="card-title">Pamungas Tribute Page</h5>
+                <p class="card-text">A Simple Web Tribute Page for Pamungkas The "to the bone" singer</p>
+                <div class="d-flex justify-content-end">
+                <a href="https://zeldaababil19.github.io/Tribute-Page/" target="_blank" class="btn btn-primary">Detail Project &raquo;</a></div>
               </div>
             </div>
           </div>
@@ -241,5 +255,9 @@
           .catch((error) => console.error('Error!', error.message));
       });
     </script>
+
+<!-- script freecodecamp -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" ></script>
+
   </body>
 </html>

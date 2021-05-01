@@ -1,12 +1,31 @@
 .jumbotron {
   padding-top: 6rem;
   background-color: #e2edff;
+  position: relative;
+  height: 100vh;
 }
 
-#project {
+.wave1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#projects {
   background-color: #e2edff;
 }
 
 section {
   padding-top: 5rem;
+}
+
+/* media query ketika mobile version */
+@media (max-width: 576px) {
+  .btn-github {
+    width: 90%;
+  }
+
+  .navbar {
+    background-color: black !important;
+  }
 }
